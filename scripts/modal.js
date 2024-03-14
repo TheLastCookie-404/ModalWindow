@@ -1,9 +1,9 @@
-function ShowModal(modal) 
+function ShowModal(modal) // Сюды прилетает айдишник элемента
 {
     modal = document.getElementById(modal);
     modal.style.display = "flex";
 }
-function HideModal(modal) 
+function HideModal(modal) // Сюды прилетает айдишник элемента
 {
     modal = document.getElementById(modal);
     modal.style.display = "none";
