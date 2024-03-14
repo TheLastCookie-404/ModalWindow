@@ -1,11 +1,11 @@
-function ShowModal(id) 
+function ShowModal(modal) 
 {
-    let modal = document.getElementById(id);
+    modal = document.getElementById(modal);
     modal.style.display = "flex";
 }
-function HideModal(id) 
+function HideModal(modal) 
 {
-    let modal = document.getElementById(id);
+    modal = document.getElementById(modal);
     modal.style.display = "none";
 }
 
